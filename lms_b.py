@@ -63,5 +63,4 @@ mag_db = librosa.amplitude_to_db(amplitude)
 mag_n = _normalize(mag_db)
 librosa.display.specshow(mag_n, y_axis='linear', x_axis='time', sr=sampling_rate)
 plt.show()
-[출처] [음성/오디오 신호처리] Python을 이용한 LMS 알고리즘 구현 - 톤 노이즈 제거|작성자 마법사 개미군
 
